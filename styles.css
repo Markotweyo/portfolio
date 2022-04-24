@@ -14,6 +14,8 @@
   text-decoration: none;
   color: #6070ff;
   font-weight: 700;
+  padding: 24px;
+  margin: 12px 8px;
 }
 
 .headline {
@@ -22,51 +24,45 @@
   background-size: cover;
   height: 604px;
   top: 92px;
-  padding: 114px, 24px, 114px 24px;
+  padding: 114px 24px 114px 24px;
   display: flex;
   flex-direction: column;
-  
 }
 
 .name h1 {
   display: flex;
   top: 114px;
-  font-family: 'Poppins';
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
   color: #172b4d;
   align-items: center;
-  margin: 12px 8px; 
+  margin: 12px 8px;
 }
 
 .description p {
-  font-family: 'Poppins';
-  font-style: normal;
   font-weight: 400;
   font-size: 16px;
   color: #344563;
-  margin: 12px 8px;
   align-items: center;
   display: flex;
   flex-wrap: wrap;
+  margin: 12px 8px;
 }
 
 .socialmedia {
-  font-family: 'Poppins';
-  font-style: normal;
   font-weight: 500;
-  font-size: 16px;  
-  color: #7F8CFF;
-  margin: 0px 8px;
+  font-size: 16px;
+  color: #7f8cff;
+  margin: 0 8px;
 }
 
 .social-media-icons {
   height: 20px;
-  display: flex; 
+  display: flex;
 }
 
 .social-media-icons a {
   text-decoration: none;
-  margin: 8px;   
+  margin: 8px;
 }
