@@ -66,3 +66,61 @@
   text-decoration: none;
   margin: 8px;
 }
+
+.works {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 114px 24px;
+  height:2788px;
+}
+
+.card-works {
+  height: 552px;
+}
+
+.snapshoot-portfolio {
+  height: 220px;
+  margin: 12px 0px;
+}
+
+.portfolio-snapshoot {
+  border-radius: 8px;
+}
+
+.left-block {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  width: 295px;
+  height: 288px;
+  left: 16px;
+  top: 248px;
+  margin: 12px 0px;
+}
+
+.summary-frame {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  margin: 12px 0px;
+}
+
+.tags {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  height: 24px;
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+  margin: 12px 0px;
+}
+
+.tags ul li {
+  list-style: none;
+  display: inline;
+}
