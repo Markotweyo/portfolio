@@ -1,3 +1,6 @@
+body {
+  font-family: 'Poppins', sans-serif;
+}
 .container {
   background: #ffff;
 }
@@ -19,12 +22,10 @@
 }
 
 .headline {
-  background-image: url('./images/header-shapesmobile.svg');
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 604px;
-  top: 92px;
-  padding: 114px 24px 114px 24px;
+  background: url('./images/header-shapesmobile.svg') no-repeat center center;
+  background-size: 100% 100%;
+  height: 100%;
+  padding: 114px 24px;
   display: flex;
   flex-direction: column;
 }
@@ -58,7 +59,7 @@
 }
 
 .social-media-icons {
-  height: 20px;
+  height: 30px;
   display: flex;
 }
 
