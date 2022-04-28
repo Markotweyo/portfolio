@@ -1,8 +1,10 @@
-body { 
-  font-family:'Poppins', sans-serif;
+body {
+  font-family: 'Poppins', sans-serif;
+  height: 100%;
 }
+
 .container {
-  background: #F7F7F9;
+  background: #f7f7f9;
 }
 
 .header-background {
@@ -11,7 +13,7 @@ body {
   justify-content: space-between;
   align-items: center;
   color: #6070ff;
-  background: #FFFFFF;
+  background: #fff;
 }
 
 .logo-placeholder a {
@@ -24,20 +26,20 @@ body {
 
 .headline {
   background-image: url('./images/header-shapesmobile.svg');
+  background-size: 100%;
+  height: 100%;
+  background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
-  height: 604px;
+  overflow: hidden;
   top: 92px;
   padding: 114px 24px 114px 24px;
   display: flex;
   flex-direction: column;
-  
 }
 
 .name h1 {
   display: flex;
   top: 114px;
-  font-family: 'Poppins';
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
@@ -79,8 +81,7 @@ body {
   flex-direction: column;
   align-items: center;
   padding: 114px 24px;
-  height:2788px;
-  
+  height: 2900px;
 }
 
 .card-works {
@@ -91,18 +92,18 @@ body {
   position: static;
   width: 327px;
   height: 612px;
-  left: calc(50% - 327px/2);
+  left: calc(50% - 327px / 2);
   top: 114px;
-  background: #FFFFFF;
-  border: 1px solid #DFE1E6;
+  background: #fff;
+  border: 1px solid #dfe1e6;
   box-sizing: border-box;
   border-radius: 16px;
-  margin: 88px 0px;
+  margin: 88px 0;
 }
 
 .snapshoot-portfolio {
   height: 220px;
-  margin: 12px 0px;
+  margin: 12px 0;
 }
 
 .portfolio-snapshoot {
@@ -113,22 +114,24 @@ body {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  padding: 0px;
+  padding: 0;
   width: 295px;
   height: 288px;
   left: 16px;
   top: 248px;
-  margin: 12px 0px;
+  margin: 12px 0;
 }
 
 .project-title {
-
+  font-weight: 700;
+  font-size: 24px;
+  color: #344563;
 }
 
 .summary-frame {
   display: flex;
   flex-direction: row;
-  padding: 0px;
+  padding: 0;
 }
 
 .client {
@@ -146,7 +149,7 @@ body {
   font-weight: 600;
   font-size: 13px;
   line-height: 16px;
-  color: #7A869A;
+  color: #7a869a;
 }
 
 .year {
@@ -155,7 +158,7 @@ body {
   font-weight: 600;
   font-size: 13px;
   line-height: 16px;
-  color: #7A869A;
+  color: #7a869a;
 }
 
 .project-description p {
@@ -163,7 +166,7 @@ body {
   font-weight: 400;
   font-size: 15px;
   line-height: 24px;
-  color: #344563; 
+  color: #344563;
 }
 
 .tags {
@@ -174,10 +177,10 @@ body {
 .tags ul li {
   list-style: none;
   display: inline;
-  background: #EBEBFF;
+  background: #ebebff;
   border-radius: 8px;
   padding: 4px 12px;
-  color: #6070FF;
+  color: #6070ff;
 }
 
 .project-button {
@@ -185,46 +188,41 @@ body {
   padding: 12px;
   width: 124px;
   height: 48px;
-  left: 0px;
   border: 1px solid #6070ff;
   box-sizing: border-box;
   border-radius: 8px;
-  background:#FFFFFF;
-  font-family: 'Poppins';
+  background: #fff;
   font-style: normal;
   font-weight: 500;
   font-size: 17px;
   line-height: 24px;
- 
   text-align: center;
-  color: #396DF2;
-  margin: 0px 10px;
+  color: #396df2;
+  margin: 0 10px;
   cursor: pointer;
 }
 
-.project-button:hover{
-  background:#6070FF;
-  color: #FFFFFF;
+.project-button:hover {
+  background: #6070ff;
+  color: #fff;
 }
 
 .about-myself {
-  background: #FFFFFF;
-  
-  
+  background: #fff;
 }
 
 .skill-top {
   display: flex;
-flex-direction: column;
-align-items: flex-start;
-padding: 114px 24px;
-margin: 24px 30px;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 114px 24px;
+  margin: 24px 30px;
 }
 
 .skill-list {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 0px;
-  margin: 24px 0px; 
+  padding: 0;
+  margin: 24px 0;
 }
