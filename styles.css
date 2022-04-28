@@ -195,7 +195,7 @@ body {
   font-weight: 500;
   font-size: 17px;
   line-height: 24px;
-  align-items: center;
+ 
   text-align: center;
   color: #396DF2;
   margin: 0px 10px;
@@ -210,14 +210,21 @@ body {
 .about-myself {
   background: #FFFFFF;
   
+  
 }
 
 .skill-top {
   display: flex;
 flex-direction: column;
 align-items: flex-start;
-padding: 0px;
-height: 409px;
-left: 24px;
-margin: 24px 0px;
+padding: 114px 24px;
+margin: 24px 30px;
+}
+
+.skill-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  margin: 24px 0px; 
 }
