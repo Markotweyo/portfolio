@@ -27,7 +27,7 @@ body {
 .headline {
   background-image: url('./images/header-shapesmobile.svg');
   background-size: 100%;
-  height: 100%;
+  height: 600px;
   background-position: center;
   background-repeat: no-repeat;
   overflow: hidden;
@@ -80,8 +80,8 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  height: 2650px;
   padding: 114px 24px;
-  height: 2900px;
 }
 
 .card-works {
@@ -93,12 +93,12 @@ body {
   width: 327px;
   height: 612px;
   left: calc(50% - 327px / 2);
-  top: 114px;
+  top: 100px;
   background: #fff;
   border: 1px solid #dfe1e6;
   box-sizing: border-box;
   border-radius: 16px;
-  margin: 88px 0;
+  margin: 40px 0;
 }
 
 .snapshoot-portfolio {
@@ -174,17 +174,8 @@ body {
   flex-direction: row;
 }
 
-.tags ul li {
-  list-style: none;
-  display: inline;
-  background: #ebebff;
-  border-radius: 8px;
-  padding: 4px 12px;
-  color: #6070ff;
-}
-
 .project-button {
-  position:absolute;
+  position: relative;
   display: inline-block;
   padding: 12px;
   width: 130px;
@@ -194,38 +185,42 @@ body {
   border-radius: 8px;
   background: #fff;
   font-style: normal;
-  font-weight: 550;
+  font-weight: 400;
   font-size: 14px;
   align-items: center;
   line-height: 24px;
   color: #396df2;
   margin: 10px;
   cursor: pointer;
+  right: 10px;
 }
 
-.project-button:hover {
+.project-button :hover {
   background: #6070ff;
   color: #fff;
 }
 
 .about-myself {
   background: #fff;
+  margin: 12px 8px;
+  padding: 24px;
 }
 
 .skill-top {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  padding: 114px 24px;
-  margin: 24px 30px;
+}
+
+.button {
+  width: 162px;
+  height: 48px;
+  top: calc(50% - 48px / 2 + 180.5px);
+  margin: 24px 0;
 }
 
 .get-resume-button {
-  position:absolute;
-  left: 10px;
-  top:40px;
   display: inline-block;
-  padding: 12px;
   width: 130px;
   height: 48px;
   border: 1px solid #6070ff;
@@ -233,12 +228,11 @@ body {
   border-radius: 8px;
   background: #fff;
   font-style: normal;
-  font-weight: 550;
+  font-weight: 400;
   font-size: 14px;
   align-items: center;
   line-height: 24px;
   color: #396df2;
-  margin: 10px;
   cursor: pointer;
 }
 
@@ -248,25 +242,112 @@ body {
 }
 
 .skill-list {
+  position: relative;
   display: flex;
   flex-direction: column;
-  padding: 0;
-  position: static;
-  margin: 24px 0;
+  padding: 24px;
+  margin: 12px 8px;
+  color: #344563;
+  right: 70px;
 }
 
 .skills-list_frame {
   list-style: none;
-  margin: 0;
-  padding: 0;
-  
+  display: flex;
+  flex-direction: column;
+}
+
+.language-container {
+  display: flex;
+  width: 327px;
+  height: 72px;
+  align-items: center;
+  justify-content: space-between;
+  color: #000;
+  font-style: 500;
+  font-size: 20px;
+  line-height: 20px;
+}
+
+.language-container img {
+  padding: 8px;
+  right: 26px;
+  border-radius: 8px;
+}
+
+.languages {
+  display: inline-block;
+  position: relative;
 }
 
 .language_items li {
   list-style: none;
-  
-}.language_items li a {
+  padding: 0;
+  display: flex;
+  align-items: center;
+  width: 303px;
+  height: 66.72px;
+  left: 12px;
+  background: #f7f7f9;
+  margin: 12px 0;
+}
+
+.tags ul li {
+  position: relative;
+  list-style: none;
+  display: inline-block;
+  background: #ebebff;
+  border-radius: 8px;
+  color: #6070ff;
+  right: 40px;
+}
+
+.language_items a {
   text-decoration: none;
-  color: inherit;
-  pointer-events:none;
+  pointer-events: none;
+  margin: 0;
+  z-index: 1;
+  display: block;
+  margin-left: 16px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  color: #253858;
+}
+
+.framework-container {
+  display: flex;
+  width: 327px;
+  height: 72px;
+  align-items: center;
+  justify-content: space-between;
+  color: #000;
+  font-style: 500;
+  font-size: 20px;
+  line-height: 20px;
+}
+
+.framework-container img {
+  padding: 12px;
+  right: 26px;
+  border-radius: 8px;
+}
+
+.skills-container {
+  display: flex;
+  width: 327px;
+  height: 72px;
+  align-items: center;
+  justify-content: space-between;
+  color: #000;
+  font-style: 500;
+  font-size: 20px;
+  line-height: 20px;
+}
+
+.skills-container img {
+  padding: 12px;
+  right: 26px;
+  border-radius: 8px;
 }
