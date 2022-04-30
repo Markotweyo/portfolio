@@ -259,7 +259,6 @@ body {
 
 .language-container {
   display: flex;
-  width: 327px;
   height: 72px;
   align-items: center;
   justify-content: space-between;
@@ -285,9 +284,7 @@ body {
   padding: 0;
   display: flex;
   align-items: center;
-  width: 303px;
   height: 66.72px;
-  left: 12px;
   background: #f7f7f9;
   margin: 12px 0;
 }
@@ -318,7 +315,6 @@ body {
 
 .framework-container {
   display: flex;
-  width: 327px;
   height: 72px;
   align-items: center;
   justify-content: space-between;
@@ -336,7 +332,6 @@ body {
 
 .skills-container {
   display: flex;
-  width: 327px;
   height: 72px;
   align-items: center;
   justify-content: space-between;
